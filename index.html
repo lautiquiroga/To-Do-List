@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+
+    <div id="contenido">
+        <div class="container">
+
+            <h1><i>To-Do List con Local Storage</i></h1>
+            <div class="row">
+                <div class="six columns input">
+                    <label class="title" for="tarea">Nueva tarea:</label>
+                    <form  id="formulario">
+                            <label for="tarea"></label>
+                            <textarea id="tarea" class="u-full-width" placeholder="Escribe algo que tengas que hacer..."></textarea>
+                            <input type="submit" class="button u-full-width button-primary" value="Agregar">
+                    </form>
+                </div>
+                <div class="six columns">
+                    <h2> <b>Tareas pendientes:</b></h2>
+                    <div class="right">
+                        <div id="lista-tareas"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div> <!--#contenido-->
+
+    <script src="js/codigo.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,68 @@
+body {
+    background: linear-gradient(to right, #182848, #4b6cb7); 
+    color: white;
+}
+
+.input {
+    padding-right: 10px;
+}
+
+#tarea {
+    background-color: transparent;
+    border: 1px solid #1a657b;
+    font-size: 18px;
+    min-height: 100px;
+}
+
+#tarea::placeholder {
+    color: white;
+    opacity: 40%;
+    font-size: 17px;
+}
+
+h1 {
+    font-size: 35px;
+    margin-top: 0;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.title {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+
+#contenido {
+    margin-top: 20px;
+}
+
+.borrar-tarea,
+.borrar-tarea:hover {
+    float: right;
+    cursor: pointer;
+    color: red;
+    font-weight: bold;
+}
+
+.right {
+    padding: 15px 20px 5px 20px;
+    border: 1px solid #33C3F0;
+    min-height: 140px;
+    font-size: 18px;
+}
+
+
+.error {
+    background-color: red;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    max-width: 400px;
+    margin: 20px auto;
+    color: white;
+}
